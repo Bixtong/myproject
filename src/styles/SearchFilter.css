@@ -1,0 +1,25 @@
+.search-filter-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-filter-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.search-filter-container input::placeholder {
+    color: #888;
+
+}
+
+.search-filter-container input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
